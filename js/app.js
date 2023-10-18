@@ -1,5 +1,20 @@
 console.log('Our Team');
 
+// const gridElement = document.querySelector('.grid');
+// console.log(gridElement);
+
+// const memberBoxElement = document.querySelector('.member-box');
+// console.log(memberBoxElement);
+
+fullnameElement = document.getElementById('fullname');
+console.log(fullnameElement);
+
+professionElement = document.getElementById('profession');
+console.log(professionElement);
+
+imgElement = document.getElementById('img');
+console.log(imgElement);
+
 const members = [
     {
         fullname: 'Wayne Barnett',
@@ -53,5 +68,14 @@ for (let i = 0; i < members.length; i++) {
      console.log(currentMemberFullString);
 
     
+    //  for (let i = 0; i < gridElement.length; i++) {
+    //     fullnameElement.innerHTML = currentMemberFullnameString;
+    //     professionElement.innerHTML = currentMemberProfessionString;
+    //     imgElement.innerHTML = currentMemberMemberImgString;
+   
+    //  }
 }
+
+
+
 

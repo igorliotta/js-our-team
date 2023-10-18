@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
 .section {
     padding: 70px 0;
 }
@@ -14,7 +22,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
 }
 
 .container-md {
@@ -26,7 +33,8 @@
 
 .title {
     font-size: 32px;
-    margin-bottom: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .text {
@@ -35,11 +43,29 @@
     opacity: 0.7;
 }
 
+#fullname {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#profession {
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
 .member-box {
-    width: calc((100% / 3) - 10px);
+    width: calc((100% / 3));
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.member-img{
+    width: 100%;
+    aspect-ratio: 1;
+
 }

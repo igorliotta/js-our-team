@@ -51,7 +51,7 @@ for (let i = 0; i < members.length; i++) {
         ` <div class="member-box">
             <span id="fullname">${currentMember.fullname}</span>
             <span id="profession">${currentMember.profession}</span>
-            <img src"" alt"">${currentMember.memberImg}</img>
+            <img class="member-img" src"${currentMember.memberImg}" alt"">
          </div>`;
 
         

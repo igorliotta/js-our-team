@@ -9,28 +9,49 @@ const members = [
     {
         fullname: 'Angela Caroll',
         profession: 'Chief Editor',
-        memberImg: 'angela-caroll-chief-editor.jpg',
+        memberImgString: 'angela-caroll-chief-editor.jpg',
     },
     {
         fullname: 'Walter Gordon',
         profession: 'Office Manager',
-        memberImg: 'walter-gordon-office-manager.jpg',
+        memberImgString: 'walter-gordon-office-manager.jpg',
     },
     {
         fullname: 'Angela Lopez',
         profession: 'Social Media Manager',
-        memberImg: 'angela-lopez-social-media-manager.jpg',
+        memberImgString: 'angela-lopez-social-media-manager.jpg',
     },
     {
         fullname: 'Scott Estrada',
         profession: 'Developer',
-        memberImg: 'scott-estrada-developer.jpg',
+        memberImgString: 'scott-estrada-developer.jpg',
     },
     {
         fullname: 'Barbara Ramos',
         profession: 'Graphic Designer',
-        memberImg: 'barbara-ramos-graphic-designer.jpg',
+        memberImgString: 'barbara-ramos-graphic-designer.jpg',
     }
 ];
 
 console.log(members);
+
+for (let i = 0; i < members.length; i++) {
+
+     const currentMember = members[i];
+     console.log(currentMember, i);
+
+     const currentMemberFullnameString = JSON.stringify(currentMember.fullname);
+     console.log(currentMemberFullnameString);
+
+     const currentMemberProfessionString = JSON.stringify(currentMember.profession);
+     console.log(currentMemberProfessionString);
+
+     const currentMemberMemberImgString = JSON.stringify(currentMember.memberImgString);
+     console.log(currentMemberMemberImgString);
+
+     const currentMemberFullString = currentMemberFullnameString + " " + currentMemberProfessionString + " " + currentMemberMemberImgString;
+     console.log(currentMemberFullString);
+
+    
+}
+
